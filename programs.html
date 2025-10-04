@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>FitCore Programs - Personal Training & Classes</title>
+  <meta name='description' content='Explore FitCore Studio programs including Personal Training, Group Classes, 24/7 Access, and Nutrition Coaching.'>
+  <link href='https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@400;500;700&display=swap' rel='stylesheet'>
+  <script src='https://cdn.tailwindcss.com'></script>
+  <script>
+    tailwind.config = {
+      theme: { extend: { fontFamily: { 'primary': ['Oswald','sans-serif'], 'body': ['Roboto','system-ui','Arial'] }, colors: { 'gym-primary': '#DC143C', 'gym-accent': '#FF4500', 'gym-bg': '#1A1A1A' } } }
+    }
+  </script>
+</head>
+<body class='bg-gym-bg text-white font-body'>
+  <header class='sticky top-0 z-50'>
+    <nav class='bg-black/70 border-b border-gray-700'>
+      <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+        <div class='flex items-center justify-between h-16'>
+          <a href='index.html' class='text-2xl font-bold font-primary tracking-wide'>FitCore Studio</a>
+          <ul class='hidden md:flex space-x-6 text-sm'>
+            <li><a href='index.html' class='hover:text-gym-accent transition-colors'>Home</a></li>
+            <li><a href='about.html' class='hover:text-gym-accent transition-colors'>About</a></li>
+            <li><a href='programs.html' class='hover:text-gym-accent transition-colors'>Programs</a></li>
+            <li><a href='contact.html' class='hover:text-gym-accent transition-colors'>Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class='min-h-screen flex items-center justify-center bg-cover bg-center' style="background-image: url('https://images.unsplash.com/photo-1599121118834-14b8ab00020c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBmaXRuZXNzJTIwY2VudGVyJTIwd2l0aCUyMGVxdWlwbWVudCUyMGFuZCUyMHBlb3BsZSUyMHdvcmtpbmclMjBvdXR8ZW58MHwwfHx8MTc1OTUxMTAzOHww&ixlib=rb-4.1.0&q=80&w=1080');">
+      <div class='absolute inset-0 bg-black opacity-60'></div>
+      <div class='relative z-10 text-center px-4'>
+        <h1 class='font-primary text-4xl md:text-5xl font-bold mb-3'>Programs Tailored to Your Goals</h1>
+        <p class='font-body text-lg md:text-xl text-gray-200 mb-6'>Personal training, group classes, and flexible access designed for real people with real schedules.</p>
+        <div class='flex justify-center gap-4'>
+          <a href='contact.html' class='bg-gym-primary px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-gym-bg transition-all duration-300'>Get Free Assessment</a>
+          <a href='index.html' class='border border-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-gym-bg transition-all duration-300'>Browse All</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Programs Grid -->
+    <section class='py-16'>
+      <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+        <h2 class='font-primary text-3xl mb-6 text-center'>Our Core Programs</h2>
+        <div class='grid md:grid-cols-2 lg:grid-cols-4 gap-6'>
+          <div class='bg-gray-800 rounded-xl p-6'>
+            <h3 class='font-body text-lg mb-2'>Personal Training</h3>
+            <p class='text-sm text-gray-300'>One-on-one coaching with tailored plans and progress tracking.</p>
+          </div>
+          <div class='bg-gray-800 rounded-xl p-6'>
+            <h3 class='font-body text-lg mb-2'>Small Group Classes</h3>
+            <p class='text-sm text-gray-300'>Motivating, coach-led sessions with friends and accountability.</p>
+          </div>
+          <div class='bg-gray-800 rounded-xl p-6'>
+            <h3 class='font-body text-lg mb-2'>24/7 Access</h3>
+            <p class='text-sm text-gray-300'>Train on your schedule with secure, accessible facilities.</p>
+          </div>
+          <div class='bg-gray-800 rounded-xl p-6'>
+            <h3 class='font-body text-lg mb-2'>Nutrition Coaching</h3>
+            <p class='text-sm text-gray-300'>Evidence-based plans to fuel workouts and recovery.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class='bg-gray-950 text-gray-200 py-12'>
+    <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-8'>
+      <div>
+        <h4 class='font-primary text-xl'>FitCore Studio</h4>
+        <p class='text-sm text-gray-400'>Achieve goals with expert guidance and a supportive community.</p>
+      </div>
+      <div>
+        <h5 class='text-lg font-semibold mb-2'>Locations</h5>
+        <p class='text-sm text-gray-400'>Main Center, 123 Fitness Ave</p>
+      </div>
+      <div>
+        <h5 class='text-lg font-semibold mb-2'>Hours</h5>
+        <p class='text-sm text-gray-400'>Mon-Sun: 5:00 AM – 11:00 PM</p>
+      </div>
+      <div>
+        <h5 class='text-lg font-semibold mb-2'>Links</h5>
+        <ul class='space-y-2 text-sm'>
+          <li><a href='index.html' class='hover:underline'>Home</a></li>
+          <li><a href='about.html' class='hover:underline'>About</a></li>
+          <li><a href='programs.html' class='hover:underline'>Programs</a></li>
+          <li><a href='contact.html' class='hover:underline'>Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
