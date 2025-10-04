@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>About FitCore Studio - Gym & Fitness</title>
+  <meta name='description' content='Learn about FitCore Studio, our philosophy, and the team of expert trainers who help you reach your goals.'>
+  <link href='https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@400;500;700&display=swap' rel='stylesheet'>
+  <script src='https://cdn.tailwindcss.com'></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            'primary': ['Oswald', 'sans-serif'],
+            'body': ['Roboto', 'system-ui', 'Arial']
+          },
+          colors: {
+            'gym-primary': '#DC143C',
+            'gym-accent': '#FF4500',
+            'gym-bg': '#1A1A1A'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class='bg-gym-bg text-white font-body'>
+  <header class='sticky top-0 z-50'>
+    <nav class='bg-black/70 border-b border-gray-700'>
+      <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+        <div class='flex items-center justify-between h-16'>
+          <a href='index.html' class='text-2xl font-bold font-primary tracking-wide'>FitCore Studio</a>
+          <ul class='hidden md:flex space-x-6 text-sm'>
+            <li><a href='index.html' class='hover:text-gym-accent transition-colors'>Home</a></li>
+            <li><a href='about.html' class='hover:text-gym-accent transition-colors'>About</a></li>
+            <li><a href='programs.html' class='hover:text-gym-accent transition-colors'>Programs</a></li>
+            <li><a href='contact.html' class='hover:text-gym-accent transition-colors'>Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class='min-h-screen'>
+    <section class='py-16 bg-gray-900'>
+      <div class='max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center'>
+        <h1 class='font-primary text-4xl md:text-5xl mb-4'>Our Philosophy</h1>
+        <p class='font-body text-lg text-gray-300'>At FitCore Studio, we believe sustainable progress comes from expert guidance, consistent effort, and a supportive community.</p>
+      </div>
+    </section>
+
+    <section class='py-16'>
+      <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-3 gap-8'>
+        <article class='bg-gray-800 rounded-xl p-6'>
+          <h3 class='font-body text-xl mb-2'>Our Team</h3>
+          <p class='text-sm text-gray-300'>A diverse group of certified trainers dedicated to your success.</p>
+        </article>
+        <article class='bg-gray-800 rounded-xl p-6'>
+          <h3 class='font-body text-xl mb-2'>Our Training Method</h3>
+          <p class='text-sm text-gray-300'>Evidence-based, client-centered programming with measurable goals.</p>
+        </article>
+        <article class='bg-gray-800 rounded-xl p-6'>
+          <h3 class='font-body text-xl mb-2'>Our Facilities</h3>
+          <p class='text-sm text-gray-300'>State-of-the-art equipment, clean spaces, and a welcoming atmosphere.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class='py-16 bg-gray-900'>
+      <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-8'>
+        <div class='flex items-center'>
+          <img src='https://pixabay.com/get/g329bb93ab2eeb8173b43683ae70f32dedd3e449ef1e7549ef1b7d52e95aa67b67d5d844cc936540b1d5db10f21a0c8d8ad860f8edc8971429a102ae7b9b7bc38_640.jpg' alt='Reception and welcome area' class='w-full h-auto rounded-xl'>
+        </div>
+        <div class='flex flex-col justify-center'>
+          <h2 class='font-primary text-2xl mb-4'>Our Story</h2>
+          <p class='font-body text-gray-300'>From day one, FitCore Studio has helped people of all levels build confidence, strength, and healthier habits through personalized coaching and a community that lifts you up.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class='bg-gray-950 text-gray-200 py-12'>
+    <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-8'>
+      <div>
+        <h4 class='font-primary text-xl'>FitCore Studio</h4>
+        <p class='text-sm text-gray-400'>Transform your life with expert guidance and a supportive community.</p>
+      </div>
+      <div>
+        <h5 class='text-lg font-semibold mb-2'>Location</h5>
+        <p class='text-sm text-gray-400'>123 Fitness Ave, Health District</p>
+      </div>
+      <div>
+        <h5 class='text-lg font-semibold mb-2'>Hours</h5>
+        <p class='text-sm text-gray-400'>Mon-Sun: 5:00 AM – 11:00 PM</p>
+      </div>
+      <div>
+        <h5 class='text-lg font-semibold mb-2'>Links</h5>
+        <ul class='space-y-2 text-sm'>
+          <li><a href='index.html' class='hover:underline'>Home</a></li>
+          <li><a href='programs.html' class='hover:underline'>Programs</a></li>
+          <li><a href='contact.html' class='hover:underline'>Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // No heavy JS required for this simple about page.
+    });
+  </script>
+</body>
+</html>
